@@ -1,0 +1,10 @@
+{
+  "remote": true,
+  "description": "Send data to a Splunk HEC",
+  "parameters": {
+    "data": {
+      "description": "The data to be sent to Splunk",
+      "type": "Hash"
+    }
+  }
+}

@@ -1,4 +1,11 @@
+---
 groups:
+  - nodes:
+    - name: https://splunk.example.com/path/to/
+      config:
+        transport: remote
+        remote:
+          token: splunk_token_value
   - name: all_ssh
     nodes:
       - macs6lesp8kcgfl.delivery.puppetlabs.net
